@@ -95,7 +95,7 @@ WeatherApp/
     ```bash
     sudo /etc/hosts
 
-    1270.0.0.1 weatherapp.com
+    127.0.0.1 weatherapp.com
     ```
 
 6. **Access the UI:**
