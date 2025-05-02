@@ -2,6 +2,8 @@
 
 A 'Microservices-based weather application built using Go, Node.js, Python and MySQL, containerized with Docker and orchestrated using Kubernetes.
 
+![Weather App Banner](WeatherAppCluster.png)
+
 ---
 
 ## 🧩 Project Structure
