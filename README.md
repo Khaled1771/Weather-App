@@ -100,7 +100,7 @@ WeatherApp/
 
 6. **Access the UI:**
 
-   Open your browser and go to `http://localhost:<port>`
+   Open your browser and go to `http://weatherapp.com`
 
 ---
 
