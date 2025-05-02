@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: weatherapp-ingress
+  #For Redirecting HTTP to HTTPS
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  # For TLS/SSL termination
+  # This is where you specify the secret that contains the TLS certificate and key
+  tls:
+  - hosts:
+      - weatherapp.com
+    secretName: weatherapp-ui-tls
+  rules:
+  - host: weatherapp.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: weatherapp-ui
+            port:
+              number: 3000
+            
+                
