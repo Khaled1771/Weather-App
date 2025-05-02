@@ -31,7 +31,7 @@ WeatherApp/
 │   ├── .gitignore
 │   └── .dockerignore
 │
-├── weather/                # Go-based Weather service
+├── weather/                # Python-based Weather service
 │   ├── Dockerfile
 │   ├── main.py
 │   └── requirements.txt
@@ -55,7 +55,6 @@ WeatherApp/
 ## 🛠️ Tech Stack
 
 - **Languages**: Go, Node.js, Python
-- **Frontend**: Node.js (Express or React assumed)
 - **Database**: MySQL
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes
