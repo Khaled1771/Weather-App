@@ -107,5 +107,5 @@ WeatherApp/
 
 ## 🧪 Testing
 
-- Postman collections or curl scripts can be added here.
+- Postman collections or curl scripts can be used here.
 
